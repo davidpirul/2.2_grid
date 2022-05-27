@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2C791;
+}
+
+header {
+    grid-area: header;
+    background-color: #445936;
+    height: 9vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 7vh;
+    color: #F2C094;
+    
+}
+
+menu {
+    grid-area: menu;
+    width: 15vw;
+   
+}
+
+.bold {
+    font-weight: 700;
+}
+
+main{
+    grid-area: main;
+    background-color: #66f;
+    height: 70vh;
+}
+
+.grid-products {
+    display: grid;
+    column-gap: 1vw;
+    row-gap: 1vh;
+    grid-template-columns: auto auto auto;
+    height: 85vh;   
+     
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: #445936;
+    height: 4vh;  
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 2vh;
+}
+
+    
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+    grid-template-columns: 14%;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+    
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    
+  
+}
+
+
+/* Color Theme Swatches in Hex */
+.Maskor-Lamp-for-Gantri-1-hex { color: #445936; }
+.Maskor-Lamp-for-Gantri-2-hex { color: #717366; }
+.Maskor-Lamp-for-Gantri-3-hex { color: #F2C791; }
+.Maskor-Lamp-for-Gantri-4-hex { color: #F2E2CE; }
+.Maskor-Lamp-for-Gantri-5-hex { color: #F2C094; }
+
+.grid-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 36vh;
+    margin: auto;
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.grid-item img {
+    width: 10vw;
+}
+  
+.price {
+    color: #F2C094;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2vw;
+    margin: 0;
+}
+
+p {
+    width: 100%;
+    margin: 3px;
+}
+
+  
+.grid-item button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.grid-item button:hover {
+    opacity: 0.7;
+}
