@@ -25,6 +25,7 @@ menu {
 
 .bold {
     font-weight: 700;
+    font-size: 2vw;
 }
 
 main{
@@ -112,6 +113,10 @@ footer {
 h1 {
     font-size: 2vw;
     margin: 0;
+}
+
+h6 {
+    font-size: 1vw;
 }
 
 p {
